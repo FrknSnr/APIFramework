@@ -32,7 +32,7 @@ public class StepDefinition extends Utils {
     ResponseSpecification respSpec;
     Response res;
     static String place_Id ;
-
+    
     @Given("Add Place Payload with {string} {string} {string}")
     public void add_place_payload_with(String name, String language, String address) throws IOException {
         response = given().spec(requestSpecification())

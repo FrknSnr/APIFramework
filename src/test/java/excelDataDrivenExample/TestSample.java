@@ -8,7 +8,7 @@ public class TestSample {
     public static void main(String[] args) throws IOException {
 
         DataDriven d = new DataDriven();
-        List data = d.getData("add profile");
+        List data = d.getData("add profile","testcases");
         System.out.println(data.get(0) + " " +data.get(1));
     }
 }

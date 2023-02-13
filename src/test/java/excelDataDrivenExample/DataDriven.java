@@ -14,7 +14,7 @@ import java.util.Iterator;
 
 public class DataDriven {
 
-    public ArrayList<String> getData(String testcaseName) throws IOException {
+    public ArrayList<String> getData(String testcaseName, String sheetName) throws IOException {
 
         FileInputStream file = new FileInputStream("C:\\Users\\HP\\Desktop\\workspace\\ExcelDatabase.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(file);
@@ -22,7 +22,7 @@ public class DataDriven {
 
         int numOfSheets = workbook.getNumberOfSheets();
         for (int i = 0; i < numOfSheets; i++) {
-            if (workbook.getSheetName(i).equalsIgnoreCase("prior")) {
+            if (workbook.getSheetName(i).equalsIgnoreCase(sheetName)) {
                 XSSFSheet sheet = workbook.getSheetAt(i);
                 Iterator<Row> rows = sheet.iterator();
                 Row firstRow = rows.next();
