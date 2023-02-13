@@ -11,6 +11,7 @@ Feature: Validating Place API's
       |name | language | address   |
       |Frkn | English  | SenerHome |
 #      |SNR  | Espanol  | HouseSNR  |
+
   @DeletePlace @Regression
   Scenario: verify if Delete Place functionality is working
     Given Delete Place payload

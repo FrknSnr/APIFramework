@@ -1,28 +1,18 @@
-package CucumberAPIFramework.stepDefinitions;
+package cucumberAPIFramework.stepDefinitions;
 
 import static org.junit.Assert.*;
 
-import CucumberAPIFramework.resources.APIResources;
-import CucumberAPIFramework.resources.TestDataBuild;
-import CucumberAPIFramework.resources.Utils;
-import bodyClassses.AddPlace;
-import bodyClassses.Location;
+import cucumberAPIFramework.resources.APIResources;
+import cucumberAPIFramework.resources.TestDataBuild;
+import cucumberAPIFramework.resources.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import static io.restassured.RestAssured.given;
 

@@ -1,4 +1,4 @@
-package CucumberAPIFramework.stepDefinitions;
+package cucumberAPIFramework.stepDefinitions;
 
 import io.cucumber.java.Before;
 

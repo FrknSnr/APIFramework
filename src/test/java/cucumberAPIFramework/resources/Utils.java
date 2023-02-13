@@ -1,6 +1,5 @@
-package CucumberAPIFramework.resources;
+package cucumberAPIFramework.resources;
 
-import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
@@ -8,7 +7,6 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
 
 import java.io.*;
 import java.util.Properties;

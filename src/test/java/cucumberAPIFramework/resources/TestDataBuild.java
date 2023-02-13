@@ -1,4 +1,4 @@
-package CucumberAPIFramework.resources;
+package cucumberAPIFramework.resources;
 
 import bodyClassses.AddPlace;
 import bodyClassses.Location;
@@ -8,7 +8,7 @@ import java.util.List;
 
 public class TestDataBuild {
 
-    public AddPlace  addPlacePayload(String name, String language, String address){
+    public AddPlace addPlacePayload(String name, String language, String address){
 
         AddPlace p = new AddPlace();
         p.setAccuracy(50);
