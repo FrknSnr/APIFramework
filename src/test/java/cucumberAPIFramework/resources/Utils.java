@@ -27,7 +27,7 @@ public class Utils {
                     .setContentType(ContentType.JSON).build();
             return req;
         }
-        System.out.println("no entry.This is for showing what static 'req' means ");
+        System.out.println("This is for showing what static 'req' means ");
         return req;
     }
 
