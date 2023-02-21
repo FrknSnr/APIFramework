@@ -1,4 +1,4 @@
-package cucumberAPIFramework.resources;
+package cucumberAPIFramework.stepDefinitions.resources;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;

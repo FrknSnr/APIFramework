@@ -7,4 +7,4 @@ Feature: Validation Register API
     Then  the API call got success with status code 201
     Examples:
       | name   | email         |
-      | furkan | frkn@gmailcom |
+      | furkan | frkn@gmail.com |

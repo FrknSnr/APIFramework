@@ -22,8 +22,8 @@ public class StepDefinitions extends Utils {
 
     @Given("Add Client Payload with {string} and {string}")
     public void add_client_payload_with_and(String clientName, String clientEmail) throws IOException {
-        response1 = given().spec(requestSpecification1()).body(dataBuild.addClientPayload(clientName, clientEmail));
-
+        response1 = given().spec(requestSpecification1()).
+                body(dataBuild.addClientPayload(clientName, clientEmail));
     }
 
     @When("user calls {string} with post http request")

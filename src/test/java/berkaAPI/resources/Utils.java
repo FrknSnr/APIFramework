@@ -10,15 +10,14 @@ import java.util.Properties;
 
 public class Utils {
 
-    RequestSpecification req1 ;
+
 
     public RequestSpecification requestSpecification1() throws IOException {
 
-        req1 = new RequestSpecBuilder()
+        return new RequestSpecBuilder()
                 .setBaseUri(getGlobalValue1("baseUrl"))
                 .setContentType(ContentType.JSON).build();
 
-        return req1 ;
     }
 
     public String getGlobalValue1(String key) throws IOException {

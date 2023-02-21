@@ -2,9 +2,9 @@ package cucumberAPIFramework.stepDefinitions;
 
 import static org.junit.Assert.*;
 
-import cucumberAPIFramework.resources.APIResources;
-import cucumberAPIFramework.resources.TestDataBuild;
-import cucumberAPIFramework.resources.Utils;
+import cucumberAPIFramework.stepDefinitions.resources.APIResources;
+import cucumberAPIFramework.stepDefinitions.resources.TestDataBuild;
+import cucumberAPIFramework.stepDefinitions.resources.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

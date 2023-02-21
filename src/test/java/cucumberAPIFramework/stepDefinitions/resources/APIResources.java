@@ -1,4 +1,4 @@
-package cucumberAPIFramework.resources;
+package cucumberAPIFramework.stepDefinitions.resources;
 
 public enum APIResources {
 
