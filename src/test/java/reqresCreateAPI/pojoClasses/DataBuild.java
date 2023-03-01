@@ -2,24 +2,30 @@ package reqresCreateAPI.pojoClasses;
 
 public class DataBuild {
 
-    private static String name;
-    private static String job;
+    private String name;
+    private String job;
 
-    static DataBuild dataBuild = new DataBuild();
+    static DataBuild dataBuild;
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
     }
 
     public String getJob() {
         return job;
     }
 
-    // DENEME. OLMAZSA DİĞER YOLDAN DEVAM.
-    public static DataBuild createUser(String userName, String userJob) {
-
-        job = userJob;
-        name = userName;
-        return dataBuild;
+    public DataBuild createUser(String userName, String userJob) {
+        setName(userName);
+        setJob(userJob);
+        return this;
     }
 }

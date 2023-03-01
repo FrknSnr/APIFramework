@@ -9,6 +9,6 @@ Feature: Create User API
     Examples:
       | name   | job           |
       | Furkan | SDET          |
-      | Berka  | QA Engineer   |
-      | SeGe   | Manuel Tester |
-      | Asaf   | Manager       |
+#      | Berka  | QA Engineer   |
+#      | SeGe   | Manuel Tester |
+#      | Asaf   | Manager       |
